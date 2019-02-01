@@ -1,0 +1,61 @@
+Introduction to Linux
+
+1. To make a directory:-
+ =$ mkdir FOLDER
+
+2. To make a file:-
+$ touch FILE 
+   for multiple files   
+$ touch FILE1 FILE2
+
+3. cat:-
+Read  
+$ cat file_name
+write  
+$ cat > file_name
+append  
+$ cat >> file_name
+concatenate  
+$ cat FILE1 FLE2 > FILE3
+
+4. To remove a directory:-
+$  rm -r A
+
+5. To remove a file:-
+$  rm A
+
+6. To select a particular object from the file:-
+$  grep “>” file_name
+
+7. To count a particular object from a file:-
+$  grep -c “>” file_name
+
+8. Display a list->  
+$ ls
+
+9. Enter a directory -> 
+$ cd directory_name
+
+10. Exit a directory-> 
+$ cd ..
+
+11. To copy the contents of a file into anorther :-
+$  cp file1 file2 
+
+12. To copy a file to a directory:-
+$  cp file directory
+
+13. To move files into directory:-
+$  mv File1 Folder1 
+
+14. To rename file:-
+$  mv File1 File2
+
+15. To see all the commands that have been run in the past
+$ history
+
+16.  To combine multiple commands using pipe:-
+$  history | grep “>” | ls | wc -l
+
+17. To count in a list:-
+$  ls | wc -l
