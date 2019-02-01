@@ -1,7 +1,7 @@
 Introduction to Linux
 
 1. To make a directory:-
- =$ mkdir FOLDER
+$ mkdir FOLDER
 
 2. To make a file:-
 $ touch FILE 
