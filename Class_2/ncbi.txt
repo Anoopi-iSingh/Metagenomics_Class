@@ -1,0 +1,9 @@
+#install ncbi-blast+
+sudo apt install ncbi-blast+
+#creating a databse
+makeblastdb -in phage -parse_seqids -dbtype nucl
+#running blastn
+blastn -query filename -db phage -outfmt "7 std  length qcovs qcovhsp stitle" -task  blastn 
+#files processing
+awk -F "\t" '$12=="Complete Genome" && $11=="latest"{print $20}' assembly_summary.txt > ftpdirpath
+awk 'BEGIN{FS=OFS="/";filesuffix="genomic.gbff.gz"}{ftpdir=$0;asm=$10;file=asm"_"filesuffix;print ftpdir,file}' ftpdirpaths > ftpfilepaths

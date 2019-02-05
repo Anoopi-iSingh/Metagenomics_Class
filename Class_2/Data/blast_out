@@ -1,0 +1,10 @@
+# BLASTN 2.2.31+
+# Query: lcl|NC_009937.1_rrna_6 [locus_tag=AZC_RS03110] [product=16S ribosomal RNA] [location=680506..681994] [gbkey=rRNA]
+# Database: ./Database/16S_database
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score, % query coverage per subject, % query coverage per hsp, subject title
+# 4 hits found
+lcl|NC_009937.1_rrna_6	NC_009937.1_rrna_63	100.00	1489	0	0	1	1489	1	1489	0.0	2686	100	100	[locus_tag=AZC_RS22750] [product=16S ribosomal RNA] [location=complement(5045764..5047252)] [gbkey=rRNA]
+lcl|NC_009937.1_rrna_6	NC_009937.1_rrna_57	100.00	1489	0	0	1	1489	1	1489	0.0	2686	100	100	[locus_tag=AZC_RS21540] [product=16S ribosomal RNA] [location=complement(4779302..4780790)] [gbkey=rRNA]
+lcl|NC_009937.1_rrna_6	NC_009937.1_rrna_6	100.00	1489	0	0	1	1489	1	1489	0.0	2686	100	100	[locus_tag=AZC_RS03110] [product=16S ribosomal RNA] [location=680506..681994] [gbkey=rRNA]
+lcl|NC_009937.1_rrna_6	NC_004061.1_rrna_12	76.16	1569	267	27	2	1482	2	1551	0.0	1119	99	99	[locus_tag=BUSG_RS01245] [product=16S ribosomal RNA] [location=275515..277066] [gbkey=rRNA]
+# BLAST processed 1 queries

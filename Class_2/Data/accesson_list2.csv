@@ -1,0 +1,4 @@
+GCF_000007365.1_ASM736v1_rna_from_genomic.fna:,NC_004061.1_rrna_12,locus_tag=BUSG_RS01245],product=16S ribosomal RNA],location=275515..277066],gbkey=rRNA]
+GCF_000010525.1_ASM1052v1_rna_from_genomic.fna:,NC_009937.1_rrna_6,locus_tag=AZC_RS03110],product=16S ribosomal RNA],location=680506..681994],gbkey=rRNA]
+GCF_000010525.1_ASM1052v1_rna_from_genomic.fna:,NC_009937.1_rrna_57,locus_tag=AZC_RS21540],product=16S ribosomal RNA],location=complement(4779302..4780790)],gbkey=rRNA]
+GCF_000010525.1_ASM1052v1_rna_from_genomic.fna:,NC_009937.1_rrna_63,locus_tag=AZC_RS22750],product=16S ribosomal RNA],location=complement(5045764..5047252)],gbkey=rRNA]
